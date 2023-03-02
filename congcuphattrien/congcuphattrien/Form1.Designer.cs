@@ -37,11 +37,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(70, 95);
+            this.label1.Location = new System.Drawing.Point(32, 95);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(73, 16);
+            this.label1.Size = new System.Drawing.Size(103, 16);
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName";
+            this.label1.Text = "Ten Dang Nhap";
             // 
             // txtUserName
             // 
@@ -55,9 +55,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(73, 137);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 16);
+            this.label2.Size = new System.Drawing.Size(61, 16);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Mat Khau";
+            this.label2.Text = "mat khau";
             // 
             // txtMatKhau
             // 

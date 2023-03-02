@@ -75,6 +75,7 @@
             this.txtlogin.TabIndex = 4;
             this.txtlogin.Text = "Dang Nhap";
             this.txtlogin.UseVisualStyleBackColor = true;
+            this.txtlogin.Click += new System.EventHandler(this.txtlogin_Click);
             // 
             // Form1
             // 

@@ -16,5 +16,20 @@ namespace congcuphattrien
         {
             InitializeComponent();
         }
+
+        private void txtlogin_Click(object sender, EventArgs e)
+        {
+            string user = "admin";
+            string pass = "admin";
+            if (user.Equals(txtUserName.Text) && pass.Equals(txtMatKhau.Text))
+            {
+                this.Hide();
+                Form2 form2 = new Form2();
+                form2.ShowDialog();
+                this.Close();
+            }
+            else
+                MessageBox.Show("Sai tai khoan hoac mat khau");
+        }
     }
 }

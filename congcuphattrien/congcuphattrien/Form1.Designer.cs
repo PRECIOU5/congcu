@@ -32,6 +32,7 @@
             this.txtUserName = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtMatKhau = new System.Windows.Forms.TextBox();
+            this.txtlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -66,11 +67,21 @@
             this.txtMatKhau.Size = new System.Drawing.Size(100, 22);
             this.txtMatKhau.TabIndex = 3;
             // 
+            // txtlogin
+            // 
+            this.txtlogin.Location = new System.Drawing.Point(149, 165);
+            this.txtlogin.Name = "txtlogin";
+            this.txtlogin.Size = new System.Drawing.Size(97, 36);
+            this.txtlogin.TabIndex = 4;
+            this.txtlogin.Text = "Dang Nhap";
+            this.txtlogin.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(444, 315);
+            this.Controls.Add(this.txtlogin);
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtUserName);
@@ -88,6 +99,7 @@
         private System.Windows.Forms.TextBox txtUserName;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtMatKhau;
+        private System.Windows.Forms.Button txtlogin;
     }
 }
 
